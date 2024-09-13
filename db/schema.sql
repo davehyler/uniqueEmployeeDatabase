@@ -1,6 +1,6 @@
 DROP DATABASE IF EXISTS employee_db;
 CREATE DATABASE employee_db;
-\c "host=localhost port=5432 dbname=employee_db connect_timeout=10 user=davehyler" --//automatically connect to the database so this line does not need to be entered manually after running the schema
+\c "host=localhost port=5432 dbname=employee_db connect_timeout=10 user=YOURUSERNAMEHERE" --//automatically connect to the database so this line does not need to be entered manually after running the schema
 -- Drop tables prior to creating/recreating them when this schema and seeds are run (Can separate into SEEDS.SQL file for IF/WHEN we require a separate business or isolated values... though in reality that's no more work/efficiency/compute-power than editing the values here in a Portable Installation)
 DROP TABLE IF EXISTS employee CASCADE;
 DROP TABLE IF EXISTS role CASCADE;
