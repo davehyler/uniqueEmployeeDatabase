@@ -29,7 +29,7 @@
 <h3 id="instructions">Installation Instructions:</h3>
 <p>Make sure to install any dependancies (see package.json in same directory) prior to attempting to run, then within your terminal running within the directory of "generatelogo.js", type the command "node generatelogo.js" to begin and follow the prompts.</p>
 <h3 id="usage">How to use:</h3>
-<p>//STEPS - <br>
+<p>STEPS - <br>
   PREREQUISITE: Make sure to change the USER specified within the schema file. Had initially not specified a user, but received direct instruction from the teaching staff to enter the specified DATABASE and USER in order to prevent errors my system was giving for a soft error that had no effect on the execution of the program.
 1: Open Terminal in database folder, type: "psql -U userNameHere employee_db", <br>
 2: Type \i schema.sql // this will already have the connection "\c employee_db" command embedded within the schema as well as the SEEDS (as they are static and do not require a seeds file, whereas managing multiple companies would benefit from a seeds file), do not need a manual "connection" command or separate seed file to use database)<br>
